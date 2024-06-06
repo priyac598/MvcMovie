@@ -64,3 +64,28 @@ and it displayes the Ghost movies which are listed.
 Added filter option to the Movies list and tried checking it, sucessfully executed.
 Veirfied the URL https://localhost:7019/Movies
 
+2024-06-06
+
+01:15pm
+Part 8
+Started and Completed part 8 successfully.
+Added a new field of Rating property to the Movies Model.
+Updated the Rating filed in the create.cshtml and updated SeedData with Rating field added.
+
+Part 9:
+Started and Completed part 8 successfully.
+Added validations to the movie model.
+
+02:00 pm
+Part 10:
+Completed part 10 successfully and
+Examined all the details in the Edit.cshtml, Create.cshtml,Moviecontroller.cs, and Program.cs.
+
+
+02:40 pm
+Signed up to the git hub and created a repository.
+Cloned the repository and Pushed the code into it.
+https://github.com/priyac598/MvcMovie/
+Checked with the team members whether the link is working fine from there end.
+
+
