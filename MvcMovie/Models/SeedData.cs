@@ -19,35 +19,35 @@ namespace MvcMovie.Models
                 context.Movie.AddRange(
                     new Movie
                     {
-                        Title = "Mr Bean",
-                        ReleaseDate = DateTime.Parse("1989-2-12"),
-                        Genre = "Comedy",
+                        Title = "Playful Kiss",
+                        ReleaseDate = DateTime.Parse("1989-5-17"),
+                        Genre = "Romantic",
                         Price = 7.99M,
                         Rating = "4.0"
                     },
                     new Movie
                     {
-                        Title = "Beautiful flowers ",
-                        ReleaseDate = DateTime.Parse("1984-3-13"),
-                        Genre = "Korean Drama",
+                        Title = "My Man is Cupid ",
+                        ReleaseDate = DateTime.Parse("2020-1-15"),
+                        Genre = "Comedy",
                         Price = 8.99M,
-                        Rating = "3.2"
+                        Rating = "5.0"
                     },
                     new Movie
                     {
-                        Title = "Ghost",
-                        ReleaseDate = DateTime.Parse("1986-2-23"),
-                        Genre = "Thriller",
+                        Title = "Murari",
+                        ReleaseDate = DateTime.Parse("1995-2-23"),
+                        Genre = "Action",
                         Price = 9.99M,
-                        Rating = "4.5"
+                        Rating = "4.2"
                     },
                     new Movie
                     {
-                        Title = "RRR",
-                        ReleaseDate = DateTime.Parse("2022-4-15"),
+                        Title = "KGF",
+                        ReleaseDate = DateTime.Parse("2023-4-15"),
                         Genre = "Action",
                         Price = 3.99M,
-                        Rating = "4.4"
+                        Rating = "4.5"
                     }
                 );
                 context.SaveChanges();

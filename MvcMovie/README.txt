@@ -1,49 +1,61 @@
-﻿2024-05-09 1631
+﻿2024-05-09
 Lehya Priya Chintalapudi
-Web application  w/ VS2022 .NET 7
-no auth, .....
+Web app created VS and .Net
 SSL cert SH-1
 
 1530
-Tested and modified the app....
-All good
+Tested and modified the app.completed part 1 by successfully creating a program of HelloWorld and runned the program 
+using Web browser Chrome.
 
-1620
-Started Part 2, Added a controller. Have tested two different controller methods and confirmed by running the app in browser, got output.
+1600
+Started part 2 and added a controller.Completed the two controller methods and runned in the web browser 
+Microsoft Edge.Changed the address to localhost:5001/HelloWorld/Welcome and the output displayed successfully.
 
-2024-05-16 1400
-Started Part 3, Added a view, created a folder and named HelloWorld under view. Added a New item in Hello World, that is Razor View - Empty, Name box value- Index.cshtml.   
+2024-05-16 
+
+1420
+Started part 3.Added a new folder in the views folder and named as HelloWorld.Selected a Razor view-Empty file 
+and saved as Index.cshtml and clicked to add it.
 
 1430
-Created a newfolder in views 
-name: HelloWorld
-added a new item razor view empty, opened the index html file
-I tried testing the webpage 
-1500
-All are running successfully 
-urls tested:
-https://localhost:7019/
-https://localhost:7019/HelloWorld
-https://localhost:7019/HelloWorld/Welcome
+UnCommented the return view in the HelloWorldControllers file and executed Index.cshtml and successfully 
+runned in the web browser Microsoft Edge.
+
+2024-05-23
+
+0220
+Completed working on part 3.Changed views,layout pages and changed the title, footer and  menu link in the layout
+file.Completed the passing data from the controller view.
+
+02:50
+Started part-4,Added a data model class, NuGet Packages and added New Scaffold Item. Runned the commands Add-Migration InitialCreate and
+Update-Database in the Package Manager Console.
+
+20240530184031_InitialCreate file has been created in the migration folder.
 
 
-202405231500
-Part 3
-https://localhost:7019/Home/Privacy
-Successfully got Privacy Policy
-https://localhost:7019/HelloWorld/Welcome?name=Vinni&numtimes=4
+03:15
+Scaffolding added a connection string to the appsettings.json file.Successfully executed the files 
+and could be able to edit the list.
+https://localhost:7138/Movies
+Created the Movie list of 5 and submitted.The list list we have created is shown in the Movie app.
+If we wanted to see for the particular Movie id from the list used the below link to display the record 
+of the first movie from the list created.
+https://localhost:7138/movies/details?id=1
 
-1540
-Part 4
-Added a data model class
-name=Movie.cs
-Add NuGet packages
-First i was unable to add new scafflod item then i recognized the issue that was to stop the run and then i could find the add scafflod item and i have added it
-as per the instructions
-In the Package Manager Console (PMC) i have given the code to add migration and update the database
-Then i have run the app and selected the Movie App link
-I got the required output
-Created a Migration file - 20240530184031_InitialCreate
+03:30
+Examined the Migrations/{timestamp}_InitialCreate.cs migration file
+Opened the Controllers/MoviesController.cs file and examined the constructor.
+Examined  the generated Details method in the Controllers/MoviesController.cs file.
+Examined the contents of the Views/Movies/Details.cshtml file.
+
+0405
+Started working on part 5.Opened SQL Server Express LocalDB and examined the local database from the 
+view menu>Database>System databases>dbo.movie>View Data
+The available data has been displayed successfully.
+Added a new class in the Models Folder and named as SeedData.Replaced the code from the SeedData.cs 
+and added code in the program.cs file.
+Successfully runed the file and I can see the app list available with the data created.
 
 2024-05-30
 
